@@ -1,7 +1,7 @@
 # A for Rock, B for Paper, and C for Scissors
 # X for Rock, Y for Paper, and Z for Scissors
-# 1 for Rock, 2 for Paper, and 3 for Scissors
-# 0 if you lost, 3 if the round was a draw, and 6 if you won
+# 1 point for Rock, 2 for Paper, and 3 for Scissors
+# 0 points if you lost, 3 if the round was a draw, and 6 if you won
 
 def get_points(o, u):
     match (o, u):
