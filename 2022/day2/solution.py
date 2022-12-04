@@ -3,8 +3,8 @@
 # 1 point for Rock, 2 for Paper, and 3 for Scissors
 # 0 points if you lost, 3 if the round was a draw, and 6 if you won
 
-def get_points(o, u):
-    match (o, u):
+def get_points(opponent, user):
+    match (opponent, user):
         case ('A', 'X'): return 4
         case ('A', 'Y'): return 8
         case ('A', 'Z'): return 3
